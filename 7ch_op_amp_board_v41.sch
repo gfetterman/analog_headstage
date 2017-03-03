@@ -290,18 +290,18 @@
 <description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1,6/0,8">
+<package name="1,6/0,9">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<wire x1="-0.762" y1="0.762" x2="-0.508" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="0.762" x2="-0.762" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="0.762" x2="-0.762" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-0.762" x2="-0.508" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-0.762" x2="0.762" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-0.762" x2="0.762" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.508" x2="0.762" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="0.762" y1="0.762" x2="0.508" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="-0.508" x2="0.762" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="-0.762" x2="0.508" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="-0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="1" x="0" y="0" drill="0.9144" diameter="1.6002" shape="octagon"/>
 <text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
@@ -316,15 +316,15 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1,6/0,8" prefix="PAD" uservalue="yes">
+<deviceset name="1,6/0,9" prefix="PAD" uservalue="yes">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
 <gates>
-<gate name="P" symbol="PAD" x="0" y="0"/>
+<gate name="1" symbol="PAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1,6/0,8">
+<device name="" package="1,6/0,9">
 <connects>
-<connect gate="P" pin="P" pad="1"/>
+<connect gate="1" pin="P" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -349,14 +349,15 @@
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="1" library="kjbrown" deviceset="TL074-TSSOP" device="" value=""/>
 <part name="2" library="kjbrown" deviceset="TL074-TSSOP" device="" value=""/>
-<part name="PAD1" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="PAD2" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="PAD3" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="PAD4" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="PAD5" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="PAD6" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="PAD7" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="PAD8" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="PAD1" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD2" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD3" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD4" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD5" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD6" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD7" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD8" library="wirepad" deviceset="1,6/0,9" device=""/>
+<part name="PAD9" library="wirepad" deviceset="1,6/0,9" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -376,14 +377,15 @@
 <instance part="2" gate="G$3" x="-43.18" y="22.86"/>
 <instance part="2" gate="G$4" x="-43.18" y="43.18"/>
 <instance part="2" gate="G$5" x="-43.18" y="43.18"/>
-<instance part="PAD1" gate="P" x="-78.74" y="-81.28"/>
-<instance part="PAD2" gate="P" x="-78.74" y="-66.04"/>
-<instance part="PAD3" gate="P" x="-78.74" y="-50.8"/>
-<instance part="PAD4" gate="P" x="-78.74" y="-30.48"/>
-<instance part="PAD5" gate="P" x="-81.28" y="-7.62"/>
-<instance part="PAD6" gate="P" x="-81.28" y="7.62"/>
-<instance part="PAD7" gate="P" x="-81.28" y="25.4"/>
-<instance part="PAD8" gate="P" x="-81.28" y="45.72"/>
+<instance part="PAD1" gate="1" x="-78.74" y="-81.28"/>
+<instance part="PAD2" gate="1" x="-78.74" y="-66.04"/>
+<instance part="PAD3" gate="1" x="-78.74" y="-50.8"/>
+<instance part="PAD4" gate="1" x="-78.74" y="-30.48"/>
+<instance part="PAD5" gate="1" x="-81.28" y="-7.62"/>
+<instance part="PAD6" gate="1" x="-81.28" y="7.62"/>
+<instance part="PAD7" gate="1" x="-81.28" y="25.4"/>
+<instance part="PAD8" gate="1" x="-81.28" y="45.72"/>
+<instance part="PAD9" gate="1" x="-81.28" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -470,8 +472,11 @@
 <wire x1="-45.72" y1="-25.4" x2="20.32" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="20.32" y="-25.4"/>
 <pinref part="2" gate="G$5" pin="VCC+"/>
-<wire x1="20.32" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="PAD9" gate="1" pin="P"/>
+<wire x1="-78.74" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="63.5" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
+<junction x="20.32" y="50.8"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -479,7 +484,7 @@
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="2" gate="G$4" pin="IN+"/>
 <wire x1="-78.74" y1="45.72" x2="-68.58" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="PAD8" gate="P" pin="P"/>
+<pinref part="PAD8" gate="1" pin="P"/>
 <junction x="-78.74" y="45.72"/>
 <wire x1="-68.58" y1="45.72" x2="-53.34" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="45.72" x2="-68.58" y2="45.72" width="0.1524" layer="91"/>
@@ -529,49 +534,49 @@
 <net name="N$8" class="0">
 <segment>
 <pinref part="1" gate="G$1" pin="IN+"/>
-<pinref part="PAD1" gate="P" pin="P"/>
+<pinref part="PAD1" gate="1" pin="P"/>
 <wire x1="-76.2" y1="-81.28" x2="-55.88" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="1" gate="G$2" pin="IN+"/>
-<pinref part="PAD2" gate="P" pin="P"/>
+<pinref part="PAD2" gate="1" pin="P"/>
 <wire x1="-76.2" y1="-66.04" x2="-55.88" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="1" gate="G$3" pin="IN+"/>
-<pinref part="PAD3" gate="P" pin="P"/>
+<pinref part="PAD3" gate="1" pin="P"/>
 <wire x1="-76.2" y1="-50.8" x2="-55.88" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="1" gate="G$4" pin="IN+"/>
-<pinref part="PAD4" gate="P" pin="P"/>
+<pinref part="PAD4" gate="1" pin="P"/>
 <wire x1="-76.2" y1="-30.48" x2="-55.88" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="2" gate="G$3" pin="IN+"/>
-<pinref part="PAD7" gate="P" pin="P"/>
+<pinref part="PAD7" gate="1" pin="P"/>
 <wire x1="-53.34" y1="25.4" x2="-78.74" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="2" gate="G$2" pin="IN+"/>
-<pinref part="PAD6" gate="P" pin="P"/>
+<pinref part="PAD6" gate="1" pin="P"/>
 <wire x1="-53.34" y1="7.62" x2="-78.74" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="2" gate="G$1" pin="IN+"/>
-<pinref part="PAD5" gate="P" pin="P"/>
+<pinref part="PAD5" gate="1" pin="P"/>
 <wire x1="-53.34" y1="-7.62" x2="-78.74" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
