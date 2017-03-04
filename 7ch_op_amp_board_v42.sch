@@ -428,14 +428,14 @@
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="SPI" gate="A" pin="MISO1-"/>
-<wire x1="2.54" y1="22.86" x2="2.54" y2="-96.52" width="0.1524" layer="91"/>
 <pinref part="2" gate="G$3" pin="OUT"/>
 <pinref part="2" gate="G$3" pin="IN-"/>
 <wire x1="-53.34" y1="20.32" x2="-33.02" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="20.32" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="22.86" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="22.86" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-33.02" y="22.86"/>
+<pinref part="SPI" gate="A" pin="MISO1+"/>
+<wire x1="5.08" y1="-96.52" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -492,9 +492,9 @@
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="12.7" y1="-86.36" x2="5.08" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="SPI" gate="A" pin="MISO1+"/>
-<wire x1="5.08" y1="-86.36" x2="5.08" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-86.36" x2="2.54" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="SPI" gate="A" pin="MISO1-"/>
+<wire x1="2.54" y1="-96.52" x2="2.54" y2="-86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
