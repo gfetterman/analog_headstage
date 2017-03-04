@@ -406,8 +406,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="PAD2" library="wirepad" package="1,6/0,9" value="" x="1.651" y="13.716" smashed="yes">
 <attribute name="VALUE" x="1.651" y="14.316" size="0.0254" layer="27"/>
 </element>
-<element name="PAD3" library="wirepad" package="1,6/0,9" value="" x="9.144" y="11.557" smashed="yes">
-<attribute name="VALUE" x="9.144" y="12.157" size="0.0254" layer="27"/>
+<element name="PAD3" library="wirepad" package="1,6/0,9" value="" x="9.271" y="11.938" smashed="yes">
+<attribute name="VALUE" x="9.271" y="12.538" size="0.0254" layer="27"/>
 </element>
 <element name="PAD4" library="wirepad" package="1,6/0,9" value="" x="7.366" y="13.716" smashed="yes">
 <attribute name="VALUE" x="7.366" y="14.316" size="0.0254" layer="27"/>
@@ -474,16 +474,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="5.6515" y1="4.572" x2="5.6515" y2="5.5245" width="0.1524" layer="1"/>
 <wire x1="5.6515" y1="5.5245" x2="5.715" y2="5.588" width="0.1524" layer="1"/>
 <via x="5.715" y="5.588" extent="1-16" drill="0.3302" diameter="0.254"/>
-<via x="6.477" y="6.858" extent="1-16" drill="0.3302" diameter="0.254"/>
-<via x="7.366" y="9.906" extent="1-16" drill="0.3302" diameter="0.254"/>
-<wire x1="7.366" y1="9.906" x2="8.289" y2="9.906" width="0.1524" layer="16"/>
+<wire x1="5.715" y1="5.588" x2="6.477" y2="6.35" width="0.1524" layer="16"/>
 <wire x1="8.289" y1="9.906" x2="8.334" y2="9.951" width="0.1524" layer="16"/>
-<wire x1="5.207" y1="8.128" x2="6.477" y2="6.858" width="0.1524" layer="1"/>
-<wire x1="6.477" y1="6.858" x2="6.477" y2="6.35" width="0.1524" layer="16"/>
-<wire x1="6.477" y1="6.35" x2="5.715" y2="5.588" width="0.1524" layer="16"/>
-<wire x1="7.366" y1="9.906" x2="5.588" y2="9.906" width="0.1524" layer="1"/>
-<wire x1="5.588" y1="9.906" x2="5.207" y2="9.525" width="0.1524" layer="1"/>
-<wire x1="5.207" y1="9.525" x2="5.207" y2="8.128" width="0.1524" layer="1"/>
+<wire x1="6.477" y1="8.89" x2="6.477" y2="6.35" width="0.1524" layer="16"/>
+<wire x1="6.477" y1="8.89" x2="6.858" y2="9.271" width="0.1524" layer="16"/>
+<wire x1="6.858" y1="9.271" x2="8.304" y2="9.271" width="0.1524" layer="16"/>
+<wire x1="8.304" y1="9.271" x2="8.334" y2="9.301" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="SPI" pad="B2"/>
@@ -538,9 +534,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="6.096" y1="2.159" x2="6.985" y2="2.159" width="0.1524" layer="16"/>
 <wire x1="6.985" y1="2.159" x2="9.271" y2="4.445" width="0.1524" layer="16"/>
 <wire x1="9.271" y1="4.445" x2="9.271" y2="7.366" width="0.1524" layer="16"/>
-<wire x1="8.001" y1="12.446" x2="8.001" y2="11.176" width="0.1524" layer="16"/>
-<wire x1="8.001" y1="11.176" x2="9.271" y2="9.906" width="0.1524" layer="16"/>
-<wire x1="9.271" y1="9.906" x2="9.271" y2="7.366" width="0.1524" layer="16"/>
+<wire x1="9.779" y1="7.874" x2="9.271" y2="7.366" width="0.1524" layer="16"/>
+<wire x1="8.001" y1="12.446" x2="8.001" y2="11.557" width="0.1524" layer="16"/>
+<wire x1="9.779" y1="10.795" x2="9.779" y2="7.874" width="0.1524" layer="16"/>
+<wire x1="9.779" y1="10.795" x2="8.763" y2="10.795" width="0.1524" layer="16"/>
+<wire x1="8.763" y1="10.795" x2="8.001" y2="11.557" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="SPI" pad="B1"/>
@@ -611,11 +609,11 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$12">
 <contactref element="1" pad="10"/>
 <contactref element="PAD3" pad="1"/>
-<wire x1="9.144" y1="11.557" x2="9.779" y2="10.922" width="0.1524" layer="1"/>
-<wire x1="9.779" y1="10.922" x2="9.779" y2="8.255" width="0.1524" layer="1"/>
 <wire x1="9.779" y1="8.255" x2="8.89" y2="7.366" width="0.1524" layer="1"/>
 <wire x1="8.89" y1="7.366" x2="8.349" y2="7.366" width="0.1524" layer="1"/>
 <wire x1="8.349" y1="7.366" x2="8.334" y2="7.351" width="0.1524" layer="1"/>
+<wire x1="9.271" y1="11.938" x2="9.779" y2="11.43" width="0.1524" layer="1"/>
+<wire x1="9.779" y1="11.43" x2="9.779" y2="8.255" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="1" pad="12"/>
@@ -637,10 +635,14 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$21">
 <contactref element="2" pad="10"/>
 <contactref element="PAD7" pad="1"/>
-<wire x1="6.731" y1="11.557" x2="6.731" y2="9.652" width="0.1524" layer="16"/>
-<wire x1="6.731" y1="9.652" x2="7.747" y2="8.636" width="0.1524" layer="16"/>
-<wire x1="7.747" y1="8.636" x2="8.319" y2="8.636" width="0.1524" layer="16"/>
 <wire x1="8.319" y1="8.636" x2="8.334" y2="8.651" width="0.1524" layer="16"/>
+<wire x1="6.731" y1="11.557" x2="7.874" y2="10.414" width="0.1524" layer="16"/>
+<wire x1="9.271" y1="9.017" x2="8.89" y2="8.636" width="0.1524" layer="16"/>
+<wire x1="8.89" y1="8.636" x2="8.349" y2="8.636" width="0.1524" layer="16"/>
+<wire x1="8.349" y1="8.636" x2="8.334" y2="8.651" width="0.1524" layer="16"/>
+<wire x1="7.874" y1="10.414" x2="8.763" y2="10.414" width="0.1524" layer="16"/>
+<wire x1="8.763" y1="10.414" x2="9.271" y2="9.906" width="0.1524" layer="16"/>
+<wire x1="9.271" y1="9.906" x2="9.271" y2="9.017" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$22">
 <contactref element="2" pad="5"/>
@@ -715,6 +717,14 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,14571024827f99b0"/>
 <approved hash="18,29,c86c267a86ce5853"/>
 <approved hash="18,29,e50805ab13c3c07f"/>
+<approved hash="18,29,b1888eadc68f0f8e"/>
+<approved hash="18,29,bd2b874ab90678d9"/>
+<approved hash="18,29,db57a390dcca948c"/>
+<approved hash="18,29,954aec83292063fc"/>
+<approved hash="18,29,f454dc1eb046cbb3"/>
+<approved hash="18,29,e293ce41703002c7"/>
+<approved hash="18,29,286c86420cf6f253"/>
+<approved hash="18,29,4508e593b9fb4a7f"/>
 <approved hash="18,29,aebdc831bb754e46"/>
 <approved hash="18,29,5ce7108e28bd4173"/>
 <approved hash="18,29,59c71ee589a3e952"/>
@@ -741,12 +751,12 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,45bd9b5b6f1a7e25"/>
 <approved hash="18,29,8d2b777e91f13299"/>
 <approved hash="18,29,b4d61325a43faf4c"/>
-<approved hash="18,29,4188be9a8cfb274e"/>
 <approved hash="18,29,25ca833612d51b3d"/>
-<approved hash="18,29,221239ccd67d2506"/>
+<approved hash="18,29,4188be9a8cfb274e"/>
 <approved hash="18,29,03d51c93978b6df2"/>
-<approved hash="18,29,d48805187130c5bf"/>
+<approved hash="18,29,221239ccd67d2506"/>
 <approved hash="18,29,c8ec17c9833d3a93"/>
+<approved hash="18,29,d48805187130c5bf"/>
 <approved hash="18,29,7b67d02a50d96633"/>
 <approved hash="18,29,99473941aec79112"/>
 <approved hash="18,29,8ebd8915a4917106"/>
@@ -755,14 +765,6 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,16435a9c2b61f92b"/>
 <approved hash="18,29,0865def59afb79c6"/>
 <approved hash="18,29,e33d30e2c7e323e5"/>
-<approved hash="18,29,b1888eadc68f0f8e"/>
-<approved hash="18,29,bd2b874ab90678d9"/>
-<approved hash="18,29,db57a390dcca948c"/>
-<approved hash="18,29,954aec83292063fc"/>
-<approved hash="18,29,f454dc1eb046cbb3"/>
-<approved hash="18,29,e293ce41703002c7"/>
-<approved hash="18,29,286c86420cf6f253"/>
-<approved hash="18,29,4508e593b9fb4a7f"/>
 </errors>
 </board>
 </drawing>
