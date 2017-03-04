@@ -60,8 +60,8 @@
 <layer number="102" name="bot_pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="S_DOKU" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="14" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="14" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -105,7 +105,7 @@
 <wire x1="4.3815" y1="2.7432" x2="4.3815" y2="2.8575" width="0.2032" layer="121"/>
 <wire x1="7.5565" y1="0.2032" x2="3.1115" y2="0.2032" width="0.2032" layer="121"/>
 <text x="4.572" y="0.4445" size="0.8128" layer="121" font="vector" ratio="16">SPI</text>
-<text x="2.286" y="0.254" size="0.8128" layer="121" font="vector" ratio="16" rot="R90">7ch v4.1</text>
+<text x="2.286" y="0.254" size="0.8128" layer="121" font="vector" ratio="16" rot="R90">7ch v4.2</text>
 <text x="10.033" y="0.127" size="0.8128" layer="121" font="vector" ratio="16" rot="R90">KJB&amp;GCF</text>
 </plain>
 <libraries>
